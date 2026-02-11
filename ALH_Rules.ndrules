@@ -131,7 +131,7 @@ let illegalMethods = t.Methods
 
 where illegalMethods.Any()
 
-select new {t, illegalMethods, Severity = Severity.Blocker}
+select new {t, illegalMethods, Severity = Severity.Blocker, Debt = 10.ToMinutes().ToDebt()}
 
 
 

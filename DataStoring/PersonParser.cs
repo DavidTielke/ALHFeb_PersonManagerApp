@@ -2,7 +2,7 @@
 
 namespace DavidTielke.PMA.Data.DataStoring;
 
-public class PersonParser
+public class PersonParser : IPersonParser
 {
     public Person Parse(string dataLine)
     {

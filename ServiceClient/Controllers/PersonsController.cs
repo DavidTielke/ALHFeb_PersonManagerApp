@@ -1,6 +1,6 @@
 using DavidTielke.PMA.CrossCutting.DataClasses;
 using Microsoft.AspNetCore.Mvc;
-using DavidTielke.PMA.Logic.PersonManagement;
+using DavidTielke.PMA.Logic.Domain.PersonManagement;
 
 namespace ServiceClient.Controllers
 {
@@ -8,11 +8,11 @@ namespace ServiceClient.Controllers
     [Route("[controller]")]
     public class PersonsController : ControllerBase
     {
-        private readonly PersonManager _manager;
+        private readonly IPersonManager _manager;
 
-        public PersonsController()
+        public PersonsController(IPersonManager manager)
         {
-            _manager = new PersonManager();
+            _manager = manager;
         }
 
         [HttpGet]

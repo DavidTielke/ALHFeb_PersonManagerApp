@@ -6,7 +6,12 @@
     <Project Path="DataStoring/DataStoring.csproj" Id="474996f0-1bf5-4717-88c0-ec6bfdea4566" />
     <Project Path="FileStoring/FileStoring.csproj" Id="31030010-4860-45a8-84af-2369ecd6457b" />
   </Folder>
-  <Folder Name="/Logic/">
+  <Folder Name="/Infrastructure/">
+    <Project Path="Mappings/Mappings.csproj" Id="2faf4a15-01ee-4519-a5dc-122a460ea21b" />
+  </Folder>
+  <Folder Name="/Logic/" />
+  <Folder Name="/Logic/Business/" />
+  <Folder Name="/Logic/Domain/">
     <Project Path="PersonManagement/PersonManagement.csproj" Id="badfba73-18d6-4201-b1f6-ab565ac52238" />
   </Folder>
   <Folder Name="/Solution Items/">

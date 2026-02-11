@@ -1,14 +1,14 @@
-﻿using DavidTielke.PMA.Logic.PersonManagement;
+﻿using DavidTielke.PMA.Logic.Domain.PersonManagement;
 
 namespace DavidTielke.PMA.UI.ConsoleClient;
 
-public class PersonDisplayCommands
+public class PersonDisplayCommands : IPersonDisplayCommands
 {
-    private readonly PersonManager _manager;
+    private readonly IPersonManager _manager;
 
-    public PersonDisplayCommands()
+    public PersonDisplayCommands(IPersonManager manager)
     {
-        _manager = new PersonManager();
+        _manager = manager;
     }
 
     public void DisplayAllAdults()

@@ -1,6 +1,11 @@
 ﻿namespace DavidTielke.PMA.Data.FileStoring;
 
-public class FileReader
+public interface IFileReader
+{
+    IEnumerable<string> ReadLines(string path);
+}
+
+public class FileReader : IFileReader
 {
     public IEnumerable<string> ReadLines(string path)
     {

@@ -56,9 +56,7 @@
   <HistoricAnalysisResult PersistRecurrence="3" UseCustomDir="False" CustomDir="" RetentionNDays="60" />
   <SourceFileRebasing FromPath="" ToPath="" />
   <PathVariables />
-  <RuleFiles>
-    <RuleFile Active="True" Path=".\ALH_Rules.ndrules" />
-  </RuleFiles>
+  <RuleFiles />
   <GraphFiles />
   <ProjectRules AreActive="False" QueryPersistenceKind="PersistOnlyQueryIdForUntouchedQueries" />
   <ProjectDebtSettings DebtSettingsStorage="0" SettingsFilePath="">
