@@ -15,5 +15,6 @@
   </Folder>
   <Folder Name="/UI/">
     <Project Path="ConsoleClient/ConsoleClient.csproj" />
+    <Project Path="ServiceClient/ServiceClient.csproj" Id="23d0ba16-7c21-47ef-84c1-994826f8799f" />
   </Folder>
 </Solution>
