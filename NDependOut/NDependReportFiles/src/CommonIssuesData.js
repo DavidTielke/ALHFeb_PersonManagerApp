@@ -1,0 +1,1 @@
+var commonIssuesData='{"baselineAvailable":"True","baselineDesc":"Compare with analysis result obtained on 10 Feb 2026 10:11:25  (which is the analysis result with date closest to 30 days ago)","rules":[]}'

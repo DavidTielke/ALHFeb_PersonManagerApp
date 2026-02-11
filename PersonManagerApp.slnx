@@ -3,7 +3,9 @@
     <Project Path="DataClasses/DataClasses.csproj" Id="a449ac50-f5a5-409c-a571-d475ae387454" />
   </Folder>
   <Folder Name="/Data/">
+    <Project Path="DataStoring.Contract/DataStoring.Contract.csproj" Id="119a105e-1d21-49d4-9767-99c106a23ed4" />
     <Project Path="DataStoring/DataStoring.csproj" Id="474996f0-1bf5-4717-88c0-ec6bfdea4566" />
+    <Project Path="FIleStoring.Contract/FIleStoring.Contract.csproj" Id="4c285cbd-deb2-4d38-ad29-fedbce2c651c" />
     <Project Path="FileStoring/FileStoring.csproj" Id="31030010-4860-45a8-84af-2369ecd6457b" />
   </Folder>
   <Folder Name="/Infrastructure/">
@@ -12,6 +14,7 @@
   <Folder Name="/Logic/" />
   <Folder Name="/Logic/Business/" />
   <Folder Name="/Logic/Domain/">
+    <Project Path="PersonManagement.Contract/PersonManagement.Contract.csproj" Id="c92e9704-a329-4328-9f62-421e52b5562f" />
     <Project Path="PersonManagement/PersonManagement.csproj" Id="badfba73-18d6-4201-b1f6-ab565ac52238" />
   </Folder>
   <Folder Name="/Solution Items/">
